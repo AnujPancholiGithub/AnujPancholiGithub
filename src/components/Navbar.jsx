@@ -51,7 +51,7 @@ function Navbar() {
                     <li className="">
                         <a
                             className="text-white linked dark:text-white bg-gradient-to-r from-[#12B3EB] to-[#5460F9] rounded-md cursor-pointer font-poppins bg-white text-gray-lite font-medium mx-2.5 flex text-xtiny py-2.5 md:px-4 xl:px-5 items-center transition-all duration-300 ease-in-out dark:hover:text-white dark:bg-[#212425] hover:text-white hover:bg-gradient-to-r from-[#12B3EB] to-[#5460F9] dark:text-[#A6A6A6] transition-all duration-300 ease-in-out"
-                            href="/home"
+                            href="/AnujPancholiGithub/home"
                         >
                             <span className="mr-2 text-xl">
                                 <svg
@@ -72,7 +72,7 @@ function Navbar() {
                     <li className="">
                         <a
                             className="rounded-md cursor-pointer font-poppins bg-white text-gray-lite font-medium mx-2.5 flex text-xtiny py-2.5 md:px-4 xl:px-5 items-center transition-all duration-300 ease-in-out dark:hover:text-white dark:bg-[#212425] hover:text-white hover:bg-gradient-to-r from-[#12B3EB] to-[#5460F9] dark:text-[#A6A6A6] transition-all duration-300 ease-in-out"
-                            href="/about"
+                            href="/AnujPancholiGithub/about"
                         >
                             <span className="mr-2 text-xl">
                                 <svg

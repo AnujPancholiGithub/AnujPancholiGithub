@@ -23,7 +23,7 @@ function BackGroundComponent() {
                         <Routes>
                             <Route exact path="/" element={<Home />} />
                             <Route exact path="/home" element={<Home />} />
-                            <Route path="/about" element={<AboutComponent />} />
+                            <Route path="/AnujPancholiGithub/about" element={<AboutComponent />} />
                             <Route path="/resume" element={<Resume />} />
                             <Route path="/works" element={<Works />} />
                             <Route path="/Contact" element={<ContactMe />} />
