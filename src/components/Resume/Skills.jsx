@@ -79,10 +79,10 @@ const Skills = () => {
                         >
                             Working Skills
                         </Box>
-                        <ProgressBar skill="Web Design" percentage={80} color="#FF6464" />
-                        <ProgressBar skill="Mobile App" percentage={95} color="#9272D4" />
-                        <ProgressBar skill="Illustrator" percentage={65} color="#5185D4" />
-                        <ProgressBar skill="Photoshop" percentage={70} color="#FFA052" />
+                        <ProgressBar skill="Programming Proficiency" percentage={90} color="#FF6464" />
+                        <ProgressBar skill="Front-End" percentage={80} color="#9272D4" />
+                        <ProgressBar skill="Problem Solving" percentage={80} color="#5185D4" />
+                        <ProgressBar skill="Backend Development" percentage={95} color="#FFA052" />
                     </Box>
                     <Box flex={1}>
                         <Box bg={{ base: "white", md: "gray.100" }} p={{ base: 0, md: 6 }} borderRadius="lg" boxShadow={{ base: "none", md: "md" }}>
@@ -91,38 +91,40 @@ const Skills = () => {
                             </Heading>
                             <Flex wrap="wrap" gap={3}>
                                 <Button colorScheme="purple" size="lg" mb={3}>
-                                    Digital Design
-                                </Button>
-                                <Button colorScheme="teal" size="lg" mb={3}>
-                                    Marketing
-                                </Button>
-                                <Button colorScheme="orange" size="lg" mb={3}>
-                                    Social Media
+                                    JavaScript (JS)
                                 </Button>
                                 <Button colorScheme="yellow" size="lg" mb={3}>
-                                    Print
-                                </Button>
-                                <Button colorScheme="green" size="lg" mb={3}>
-                                    Time Management
-                                </Button>
-                                <Button colorScheme="blue" size="lg" mb={3}>
-                                    Flexibility
-                                </Button>
-                                <Button colorScheme="red" size="lg" mb={3}>
-                                    Print
-                                </Button>
-                                <Button colorScheme="pink" size="lg" mb={3}>
-                                    Print
-                                </Button>
-                                <Button colorScheme="cyan" size="lg" mb={3}>
-                                    Time Management
+                                    Java (Java SE)
                                 </Button>
                                 <Button colorScheme="purple" size="lg" mb={3}>
-                                    Flexibility
+                                    React
                                 </Button>
                                 <Button colorScheme="teal" size="lg" mb={3}>
-                                    Print
+                                    Node.js (Node)
                                 </Button>
+                                <Button colorScheme="teal" size="lg" mb={3}>
+                                    MongoDB
+                                </Button>
+                                <Button colorScheme="orange" size="lg" mb={3}>
+                                    HTML and CSS
+                                </Button>
+                                <Button colorScheme="green" size="lg" mb={3}>
+                                    API development using REST
+                                </Button>
+                                <Button colorScheme="blue" size="lg" mb={3}>
+                                    CRUD operations
+                                </Button>
+                                <Button colorScheme="red" size="lg" mb={3}>
+                                    Axios HTTP library
+                                </Button>
+                                <Button colorScheme="pink" size="lg" mb={3}>
+                                    JSON data structure
+                                </Button>
+                                <Button colorScheme="cyan" size="lg" mb={3}>
+                                    JWT authentication with Node.js
+                                </Button>
+
+
                             </Flex>
                         </Box>
                     </Box>

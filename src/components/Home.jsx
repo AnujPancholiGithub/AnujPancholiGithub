@@ -4,6 +4,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { Box, Flex, Image, Text, useMediaQuery, Heading, HStack } from "@chakra-ui/react";
 import { FaFacebook, FaTwitter, FaDribbble } from "react-icons/fa";
 import DownloadButton from "./DonloadButton"
+import Profile from "./Profile"
 
 const SocialLink = ({ href, color, children }) => (
     <Box
@@ -33,7 +34,7 @@ function Home() {
                 minH="100vh"
                 pb={{ base: 0, md: 16 }}
                 w="full"
-                mt={8}
+                mt={16}
             >
                 <Flex
                     flexDir="column"
@@ -47,32 +48,11 @@ function Home() {
                         rounded="full"
                         w={{ base: "250px", "2xl": "280px" }}
                         h={{ base: "250px", "2xl": "280px" }}
-                        src="https://imgpile.com/images/higQdE.jpg"
+                        src="https://imgpile.com/images/hswPNc.jpg"
                         alt=""
                     />
-                    <Box textAlign="center" mt={5}>
-                        <Heading as="h3" size="xl" fontWeight="semibold" color="blackAlpha.900" m={2}>
-                            Anuj Pancholi
-                        </Heading>
-                        <Text fontSize="md" color="gray.500" mt={4}>
-                            Full-Stack Developer
-                        </Text>
-                        <Text fontSize="sm" color="gray.500" mb={4}>
-                            with Expertise in JavaScript, React, DB, and Node.js.
-                        </Text>
-
-                        <HStack spacing={3} justifyContent="center">
-                            <SocialLink href="https://www.facebook.com/" color="#1773EA">
-                                <FaFacebook color="white" size={24} />
-                            </SocialLink>
-                            <SocialLink href="https://twitter.com/" color="#1C9CEA">
-                                <FaTwitter color="white" size={24} />
-                            </SocialLink>
-                            <SocialLink href="https://dribbble.com/" color="#e14a84">
-                                <FaDribbble color="white" size={24} />
-                            </SocialLink>
-
-                        </HStack>
+                    <Box textAlign="center" mt={1}>
+                        <Profile />
                         <DownloadButton />
                     </Box>
                 </Flex>

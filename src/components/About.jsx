@@ -1,64 +1,52 @@
 import React from "react";
 import Card from "./Cards"
-
+import { Box, Text, Heading } from "@chakra-ui/react";
 
 function AboutComponent() {
     const cards = [
         {
             imgSrc:
                 "https://bostamireact.ibthemespro.com/static/media/icon-6.7a458dd3dce6df96d462489320d4a456.svg",
-            title: "Ui/Ux Designsd",
+            title: "Full-stack Web Developer",
             description:
-                "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
+                "I'm a full-stack web developer and UI/UX designer with expertise in JavaScript, NodeJS, React, and other exciting languages.",
             bgColor: "#FCE5CD"
         },
         {
             imgSrc:
                 "https://bostamireact.ibthemespro.com/static/media/icon-6.7a458dd3dce6df96d462489320d4a456.svg",
-            title: "App Development",
+            title: "Creative Problem Solver",
             description:
-                "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
+                "My specialty is turning complex problems into simple, beautiful, and intuitive designs that convey your message and identity creatively.",
             bgColor: "#D9E6F5"
         },
         {
             imgSrc:
                 "https://bostamireact.ibthemespro.com/static/media/icon-6.7a458dd3dce6df96d462489320d4a456.svg",
-            title: "Photography",
+            title: "Front-end Development Expert",
             description:
-                "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
+                "On the front-end, I excel in developing visually stunning and responsive web applications with a keen eye for detail.",
             bgColor: "#E6F8E0"
         },
         {
             imgSrc:
                 "https://bostamireact.ibthemespro.com/static/media/icon-6.7a458dd3dce6df96d462489320d4a456.svg",
-            title: "Photography",
+            title: "Backend Development Specialist",
             description:
-                "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
+                "In the backend, I'm skilled in Node.js and Express.js and have hands-on experience working with APIs, CRUD operations, Axios, JSON, and JWT.",
             bgColor: "#F4F1D9"
-        },
-        {
-            imgSrc:
-                "https://bostamireact.ibthemespro.com/static/media/icon-6.7a458dd3dce6df96d462489320d4a456.svg",
-            title: "Managment",
-            description:
-                "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
-            bgColor: "#F2E6FF"
-        },
-        {
-            imgSrc:
-                "https://bostamireact.ibthemespro.com/static/media/icon-6.7a458dd3dce6df96d462489320d4a456.svg",
-            title: "Web Development",
-            description:
-                "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
-            bgColor: "#FFE6E6"
         }
     ];
 
 
 
     return (
-        <>
-
+        <Box >
+            <Box>
+                {/* <Text fontFamily={"body"}>
+                    Ram ram ram ram ram ram ram ram ram ram ram ram ram ram ram ram ram ram ram
+                </Text> */}
+            </Box>
             <div className="bg-homeBg min-h-screen  dark:bg-homeBg-dark bg-no-repeat bg-center bg-cover bg-fixed  md:pb-16 w-full">
                 <section>
                     <div className="container lg:rounded-2xl bg-white dark:bg-[#B7E6FC]  px-4 sm:px-5 md:px-10 lg:px-20">
@@ -76,9 +64,9 @@ function AboutComponent() {
                                     </div>
                                     <div className="col-span-12 md:col-span-8 space-y-2.5">
                                         <div className=" md:mr-12 xl:mr-16">
-                                            <h3 className="text-4xl font-medium dark:text-white mb-2.5 ">
-                                                Who am i?
-                                            </h3>
+                                            <Heading as="h3" size="xl" fontWeight="medium" fontFamily={"heading"} colorScheme="dark" mb="2.5">
+                                                Who am I?
+                                            </Heading>
                                             <p className="text-gray-lite  dark:text-color-910 leading-7">
                                                 I'm a creative and dedicated full-stack web developer and UI/UX designer based in Rajasthan, India. I specialize in turning complex problems into simple, beautiful, and intuitive designs that bring across your message and identity in the most creative way possible. With expertise in JavaScript, NodeJS, React, and other exciting languages, I'm always seeking new challenges and opportunities to grow as a developer.
 
@@ -89,7 +77,7 @@ function AboutComponent() {
                                             </p>
                                         </div>
                                         <div>
-                                            <h3 className="text-4xl font-medium my-5 dark:text-white">
+                                            <h3 className="text-4xl font-medium my-5 dark:text-white" fontFamily="heading">
                                                 Personal Info
                                             </h3>
                                             <div className=" grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -221,7 +209,7 @@ function AboutComponent() {
                                     © 2022 All Rights Reserved by{" "}
                                     <a
                                         className="hover:text-[#FA5252] duration-300 transition"
-                                        href="https://themeforest.net/user/ib-themes"
+                                        href="https://www.linkedin.com/in/anujpancholi/"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >     Anuj Pancholi
@@ -236,9 +224,7 @@ function AboutComponent() {
             </div >
 
             <div className="Toastify" />
-
-
-        </>
+        </Box>
     )
 };
 
