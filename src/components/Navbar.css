@@ -1,0 +1,6 @@
+@media (min-width: 450px),
+(min-height: 700px) {
+    .my-Nav {
+        background-color: transparent;
+    }
+}

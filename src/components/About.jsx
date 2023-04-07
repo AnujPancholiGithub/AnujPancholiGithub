@@ -201,22 +201,7 @@ function AboutComponent() {
                                     </div>
                                 </div>
                             }
-                            <footer
-                                className="overflow-hidden rounded-b-2xl"
-                                style={{ background: "rgb(255, 255, 255)" }}
-                            >
-                                <p className="text-center py-6 text-gray-lite  dark:text-color-910 ">
-                                    © 2022 All Rights Reserved by{" "}
-                                    <a
-                                        className="hover:text-[#FA5252] duration-300 transition"
-                                        href="https://www.linkedin.com/in/anujpancholi/"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >     Anuj Pancholi
-                                    </a>
-                                    .
-                                </p>
-                            </footer>
+
                         </div >
                     </div >
 

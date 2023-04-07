@@ -18,15 +18,15 @@ const ContactMe = () => {
 
     return (
         <Flex
-            bgGradient="linear(to-b,#FFDFED, #DFFFF1)"
+
             flexDirection="column"
             minHeight="100vh"
             justifyContent="center"
             alignItems="center"
-            p={4}
+            p={8}
         >
             <Box
-                bg="white"
+                bgGradient="linear(to-b,#DFFFF1, rgb(255, 255, 255))"
                 borderRadius="lg"
                 p={8}
                 boxShadow="xl"
@@ -61,6 +61,25 @@ const ContactMe = () => {
                         Send Message
                     </Button>
                 </form>
+                <Box display={"flex"} flexDir={"column"} mt={2} pt={2} textAlign={"center"} justifyContent={"center"}>
+                    <footer
+                        className="overflow-hidden rounded-b-2xl"
+                        style={{ background: "rgb(255, 255, 255)", }}
+                    >
+                        <p className="text-center py-6 text-gray-lite font-thin text-sm dark:text-color-910 pt-10">
+                            Crafted with Love and Passion using React and Chakra UI by {" "}
+                            <a
+                                className="hover:text-[#FA5252] font-bold duration-300 transition"
+                                href="https://www.linkedin.com/in/anujpancholi/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >     Anuj Pancholi
+                            </a>
+                            .
+                        </p>
+                    </footer>
+
+                </Box>
             </Box>
         </Flex>
     );

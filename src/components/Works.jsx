@@ -44,6 +44,11 @@ function Works() {
 
     return (
         <Box mt={{ sm: 1, md: 2, lg: 3 }}>
+            <Box display={"flex"} justifyContent={"center"}>
+                <h2 className="after-effect text-4xl after:left-44 mb-[40px] mt-12 lg:mt-0 text-[#6a6dfc]">
+                    PROJECTS
+                </h2>
+            </Box>
             <SimpleGrid columns={{ sm: 1, md: 2, lg: 3 }} gap={8} pl={8} pr={8}>
 
                 {projectsData.map((project) => {

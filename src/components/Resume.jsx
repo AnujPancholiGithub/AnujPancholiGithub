@@ -13,6 +13,7 @@ import ProjectSlider from "./Resume/ProjectSlider/Slider"
 import PdfEmbed from "./Resume/pdfEmbeded"
 import CertificateCardComponent from "./Resume/CertificateCard"
 import Skills from "./Resume/Skills";
+import { Link } from "react-router-dom";
 
 function Resume() {
 
@@ -114,12 +115,12 @@ function Resume() {
 
     return (
 
-        <Box overflow="auto">
+        <Box overflow="auto" pt={2} mt={8} >
             <section className="bg-white  lg:rounded-2xl dark:bg-[#111111]">
                 <div data-aos="fade" className="aos-init aos-animate" style={{ overflow: "hidden" }}>
                     <div className="container  sm:px-5 md:px-10 lg:px-20">
                         <div className="py-12 px-4">
-                            <h2 className="after-effect after:left-44 mb-[40px] mt-12 lg:mt-0">
+                            <h2 className="after-effect text-2xl after:left-44 mb-[40px] mt-12 lg:mt-0 text-[#4d6af8]">
                                 Resume
                             </h2>
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-6 " >
@@ -203,28 +204,12 @@ function Resume() {
                     </div>
                     {/* skillshwew */}
 
-                    <Skills />
+                    {/* <Skills /> */}
 
 
                     {/* skills */}
 
-                    <footer
-                        className="overflow-hidden rounded-b-2xl"
-                        style={{ background: "rgb(255, 255, 255)" }}
-                    >
-                        <p className="text-center py-6 text-gray-lite  dark:text-color-910 ">
-                            © 2022 All Rights Reserved by{" "}
-                            <a
-                                className="hover:text-[#FA5252] duration-300 transition"
-                                href="https://www.linkedin.com/in/anujpancholi/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                Anuj Paancholi
-                            </a>
-                            .
-                        </p>
-                    </footer>
+
                 </div>
             </section>
 

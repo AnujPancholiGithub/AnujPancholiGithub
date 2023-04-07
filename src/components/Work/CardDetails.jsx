@@ -33,7 +33,7 @@ const CardDetails = ({ title, description, fullDescription, techStack, imageUrl,
                 overflow="hidden"
                 onClick={onOpen}
                 _hover={{ cursor: 'pointer' }}
-                bgColor="#e4fffe"
+                bgColor="#F3FCF7"
             >
                 <Image src={imageUrl} alt={title} />
 
@@ -56,9 +56,9 @@ const CardDetails = ({ title, description, fullDescription, techStack, imageUrl,
                     </Text>
                 </Box>
             </Box>
-            <Modal isOpen={isOpen} onClose={onClose}>
+            <Modal isOpen={isOpen} onClose={onClose} bgColor="#F3FCF7">
                 <ModalOverlay />
-                <ModalContent>
+                <ModalContent bgColor="#F3FCF7">
                     <ModalHeader>{title}</ModalHeader>
                     <ModalBody>
                         <Image src={imageUrl} alt={title} borderRadius="md" />
@@ -80,8 +80,8 @@ const CardDetails = ({ title, description, fullDescription, techStack, imageUrl,
 
                             <AccordionItem>
                                 <h2>
-                                    <AccordionButton>
-                                        <Box flex="1" textAlign="left">
+                                    <AccordionButton >
+                                        <Box flex="1" textAlign="left" >
                                             Live Deploy
                                         </Box>
                                         <AccordionIcon />
@@ -95,6 +95,7 @@ const CardDetails = ({ title, description, fullDescription, techStack, imageUrl,
                                         rel="noopener noreferrer"
                                         size="sm"
                                         colorScheme="blue"
+                                        bgGradient="linear(to-r, #12B3EB, #5460F9)"
                                     >
                                         View Live
                                     </Button>
@@ -118,6 +119,7 @@ const CardDetails = ({ title, description, fullDescription, techStack, imageUrl,
                                         rel="noopener noreferrer"
                                         size="sm"
                                         colorScheme="blue"
+                                        bgGradient="linear(to-r, #12B3EB, #5460F9)"
                                     >
                                         View Code
                                     </Button>

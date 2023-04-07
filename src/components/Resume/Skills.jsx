@@ -58,7 +58,7 @@ const ProgressBar = ({ skill, percentage, color }) => {
 
 const Skills = () => {
     return (
-        <Stack spacing={5} px={4} py={5} minH="100vh" alignItems="center" marginTop={-10}>
+        <Stack spacing={5} px={4} py={14} minH="100vh" alignItems="center" marginTop={-10}>
             <Box
                 mx="auto"
                 maxW={{ base: "90vw", sm: "80vw", md: "70vw", lg: "100vw" }}

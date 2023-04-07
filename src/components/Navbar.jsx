@@ -1,20 +1,24 @@
 import React from "react";
-
+import { Flex, Icon, Box } from "@chakra-ui/react";
+import { FiUser } from "react-icons/fi";
 
 function Navbar() {
     return (
         <header className="flex justify-between items-center fixed top-0 left-0 w-full lg:static z-[1111111111]">
-            <div className="flex justify-between w-full px-4 lg:px-0 bg-[#F3F6F6] lg:bg-transparent lg:dark:bg-transparent dark:bg-black">
-                <div className="flex justify-between w-full items-center space-x-4 lg:my-8 my-5">
-                    <a className="text-5xl font-semibold" href="/home">
-                        <img
-                            className="h-[50px] lg:h-[52px] lg:w-[162px]"
-                            src="https://imgpile.com/images/hPrlJW.png"
-                            alt="logo"
-                        />
-                    </a>
+            <div className="hidden sm:block md:block lg:block xl:block flex justify-between w-full  px-4 lg:px-0  sm:bg-transparent  md:bg-transparent   lg:bg-transparent xl:bg-transparent lg:dark:bg-transparent dark:bg-black">
+                <div className="flex justify-center w-full items-center space-x-4 lg:my-8 my-5">
+                    <Box display={"flex"} justifyContent={"center"}>
+
+                        <a className="text-5xl font-semibold" href="/home">
+                            <img
+                                className="h-[50px] lg:h-[52px] lg:w-[162px]"
+                                src="https://imgpile.com/images/hs6FEX.png"
+                                alt="logo"
+                            />
+                        </a>
+                    </Box>
                     <div className="flex items-center">
-                        <span className="bg-white w-[40px] opacity-100 visible flex lg:opacity-0 lg:hidden h-[40px] rounded-full justify-center items-center hover:bg-[#ef4060] text-black hover:text-white transition-all duration-300 ease-in-out cursor-pointer ml-4">
+                        {/* <span className="bg-white w-[40px] opacity-100 visible flex lg:opacity-0 lg:hidden h-[40px] rounded-full justify-center items-center hover:bg-[#ef4060] text-black hover:text-white transition-all duration-300 ease-in-out cursor-pointer ml-4">
                             <svg
                                 stroke="currentColor"
                                 fill="none"
@@ -29,8 +33,8 @@ function Navbar() {
                             >
                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
                             </svg>
-                        </span>
-                        <span className="lg:opacity-0 lg:invisible visible opacity-100 bg-[#ef4060] w-[40px] h-[40px] rounded-full flex justify-center cursor-pointer items-center text-white dark:text-white text-3xl ml-3">
+                        </span> */}
+                        {/* <span className="lg:opacity-0 lg:invisible visible opacity-100 bg-[#ef4060] w-[40px] h-[40px] rounded-full flex justify-center cursor-pointer items-center text-white dark:text-white text-3xl ml-3">
                             <svg
                                 stroke="currentColor"
                                 fill="currentColor"
@@ -42,16 +46,62 @@ function Navbar() {
                             >
                                 <path d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z" />
                             </svg>
-                        </span>
+                        </span> */}
                     </div>
                 </div>
             </div>
+            <div className="lg:hidden sm:block flex  justify-between w-full  px-4 lg:px-0 bg-gradient-to-r from-[#D1F1FB] to-[#D1D4FD]  lg:dark:bg-transparent dark:bg-black">
+                <div className="flex justify-center w-full items-center space-x-4 lg:my-8 my-5">
+                    <Box display={"flex"} justifyContent={"center"}>
+
+                        <a className="text-5xl font-semibold" href="/home">
+                            <img
+                                className="h-[50px] lg:h-[52px] lg:w-[162px]"
+                                src="https://imgpile.com/images/hs6FEX.png"
+                                alt="logo"
+                            />
+                        </a>
+                    </Box>
+                    <div className="flex items-center">
+                        {/* <span className="bg-white w-[40px] opacity-100 visible flex lg:opacity-0 lg:hidden h-[40px] rounded-full justify-center items-center hover:bg-[#ef4060] text-black hover:text-white transition-all duration-300 ease-in-out cursor-pointer ml-4">
+                            <svg
+                                stroke="currentColor"
+                                fill="none"
+                                strokeWidth={2}
+                                viewBox="0 0 24 24"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                className="text-3xl"
+                                height="1em"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+                            </svg>
+                        </span> */}
+                        {/* <span className="lg:opacity-0 lg:invisible visible opacity-100 bg-[#ef4060] w-[40px] h-[40px] rounded-full flex justify-center cursor-pointer items-center text-white dark:text-white text-3xl ml-3">
+                            <svg
+                                stroke="currentColor"
+                                fill="currentColor"
+                                strokeWidth={0}
+                                viewBox="0 0 1024 1024"
+                                height="1em"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z" />
+                            </svg>
+                        </span> */}
+                    </div>
+                </div>
+            </div>
+
             <nav className="hidden lg:block">
                 <ul className="flex my-12">
                     <li className="">
                         <a
                             className="text-white linked dark:text-white bg-gradient-to-r from-[#12B3EB] to-[#5460F9] rounded-md cursor-pointer font-poppins bg-white text-gray-lite font-medium mx-2.5 flex text-xtiny py-2.5 md:px-4 xl:px-5 items-center transition-all duration-300 ease-in-out dark:hover:text-white dark:bg-[#212425] hover:text-white hover:bg-gradient-to-r from-[#12B3EB] to-[#5460F9] dark:text-[#A6A6A6] transition-all duration-300 ease-in-out"
-                            href="/AnujPancholiGithub/home"
+                            href="/home"
                         >
                             <span className="mr-2 text-xl">
                                 <svg
@@ -69,23 +119,13 @@ function Navbar() {
                             Home
                         </a>
                     </li>
-                    <li className="">
+                    <li>
                         <a
+                            href="/about"
                             className="rounded-md cursor-pointer font-poppins bg-white text-gray-lite font-medium mx-2.5 flex text-xtiny py-2.5 md:px-4 xl:px-5 items-center transition-all duration-300 ease-in-out dark:hover:text-white dark:bg-[#212425] hover:text-white hover:bg-gradient-to-r from-[#12B3EB] to-[#5460F9] dark:text-[#A6A6A6] transition-all duration-300 ease-in-out"
-                            href="/AnujPancholiGithub/about"
                         >
                             <span className="mr-2 text-xl">
-                                <svg
-                                    stroke="currentColor"
-                                    fill="currentColor"
-                                    strokeWidth={0}
-                                    viewBox="0 0 448 512"
-                                    height="1em"
-                                    width="1em"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4 14.6 0 38.3 16 89.6 16 51.7 0 74.9-16 89.6-16 47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0 80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z" />
-                                </svg>
+                                <Icon as={FiUser} />
                             </span>
                             About
                         </a>
@@ -223,7 +263,7 @@ function Navbar() {
                     </span> */}
                 </ul>
             </nav>
-        </header>
+        </header >
     )
 };
 
