@@ -1,5 +1,16 @@
-# 💫 About Me:
-🌎 I'm from Jaipur - India<br><br>🎮 I like to play video games<br><br><br><br>🤔   Exploring new technologies and developing software solutions and quick hacks.<br><br>🎓   Studying Computer Application From UOR.<br><br>🌱   Learning more about Cloud Architecture, Systems Design and Cyber Security.<br>✍️   Pursuing Dance and Yoga as hobbies.
+💫 About Me:
+
+🌎 I hail from the beautiful city of Jaipur, situated in the vibrant state of Rajasthan, India.
+
+🎮 Apart from being a tech enthusiast, I am also an avid gamer and love spending my leisure time playing video games.
+
+🤔 I enjoy exploring new technologies and developing software solutions and quick hacks that can make people's lives easier and more efficient.
+
+🎓 Currently, I am pursuing a degree in Computer Application from the University of Rajasthan to enhance my knowledge and skills in the field of computer science.
+
+🌱 Additionally, I am always on the lookout to learn more about Cloud Architecture, Systems Design, and Cyber Security, as these are areas that are rapidly evolving and have a huge potential for growth.
+
+✍️ In my free time, I pursue my interests in Dance and Yoga, as I believe that they not only help in maintaining physical fitness but also have a positive impact on mental health.
 
 
 ## 🌐 Socials:
