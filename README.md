@@ -1,6 +1,6 @@
 
 
-<h1 align="center">Namaste 🙏 <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height= 40px><to my fellow Coders!/>!</h1>
+<h1 align="center">Namaste 🙏 <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height= 40px>< to my fellow Coders />!</h1>
 
 <h4 align="center">I'm a curious mind with an insatiable appetite for learning. I thrive on exploring new technologies and domains, embracing challenges and expanding my knowledge horizons.💡.I have an adventurous spirit that revels in discovering cutting-edge technologies and applying them to real-world problem-solving ✨. At the moment, I'm engrossed in the world of web development 🕸️ and honing my skills in data structures and algorithms to ensure my solutions are robust and efficient.🤓.</h4>
 <p align= "center">
