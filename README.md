@@ -20,10 +20,6 @@
 
 - 👯 I’m looking to collaborate on **OpenSource Projects**
 
-- 👨‍💻 All of my projects are available at **[My Portfolio](https://my-portfolio-one-omega-52.vercel.app/)**
-
-- 📫 How to reach me **helpeventanuj@gmail.com**
-
 - ⚡ Fun fact **Beyond coding, my hobbies include playing badminton and exploring the latest movie releases. Have any recommendations?**
 
 ## 🌐 Socials:
@@ -38,9 +34,6 @@
 
 ## 🐦 Latest Tweet
 [![](https://gtce.itsvg.in/api?username=https://twitter.com/theanujpancholi)](https://github.com/VishwaGauravIn/github-twitter-card-embed)
-
-### 😂 Random Dev Meme
-<img src="https://rm.up.railway.app/" width="512px"/>
 
 ---
 [![](https://visitcount.itsvg.in/api?id=AnujPancholiGithub)](https://visitcount.itsvg.in)
